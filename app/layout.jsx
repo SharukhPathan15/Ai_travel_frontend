@@ -3,7 +3,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import { ThemeProvider } from "@/context/ThemeContext";
 
 export const metadata = {
-  title: "Wandr",
+  title: "IntelliTrip",
   description: "AI-powered travel planner — plan your perfect trip in seconds",
 };
 
