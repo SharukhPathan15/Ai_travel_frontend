@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# next.js build
+.next/
+out/
+
+# environment variables
+.env
+
+
+# misc
+.vercel
