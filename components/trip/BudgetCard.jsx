@@ -1,8 +1,8 @@
-import { PlaneTakeoff, Hotel, Utensils, MapPin, IndianRupee } from "lucide-react";
+import { Map , Hotel, Utensils, MapPin, IndianRupee } from "lucide-react";
 
 export default function BudgetCard({ budget }) {
   const items = [
-    { label: "Flights",       val: budget.flights,       icon: <PlaneTakeoff className="h-5 w-5 text-indigo-500" /> },
+    { label: "Travels",       val: budget.flights,       icon: <Map  className="h-5 w-5 text-indigo-500" /> },
     { label: "Accommodation", val: budget.accommodation, icon: <Hotel        className="h-5 w-5 text-indigo-500" /> },
     { label: "Food",          val: budget.food,          icon: <Utensils     className="h-5 w-5 text-indigo-500" /> },
     { label: "Activities",    val: budget.activities,    icon: <MapPin       className="h-5 w-5 text-indigo-500" /> },
