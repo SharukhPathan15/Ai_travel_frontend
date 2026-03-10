@@ -8,8 +8,9 @@ export function ThemeProvider({ children }) {
 
   useEffect(() => {
     const saved = localStorage.getItem('wandr-theme');
-    const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const initial = saved || preferred;
+
+    const initial = saved || 'light'; // always default to light
+
     setTheme(initial);
     document.documentElement.setAttribute('data-theme', initial);
   }, []);
