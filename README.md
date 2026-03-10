@@ -166,10 +166,9 @@ Beyond just generating an itinerary, users can **edit it live without regenerati
 ## 📜 Scripts
 
 ```bash
-npm run dev       # Start dev server → http://localhost:3000
+npm run dev       # Start dev server → https://ai-travel-backend-reed.onrender.com/api
 npm run build     # Production build
-npm start         # Start production server
-npm run lint      # ESLint check
+npm run dev         # Start production server
 ```
 
 ---
